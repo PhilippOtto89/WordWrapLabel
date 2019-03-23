@@ -35,6 +35,25 @@ It also makes sure that the text fits into the whole bounds of the label when th
 
 ![](/Screenshots/Screenshot3.png?raw=true "WordWrapLabel making the text fit into the line number or given height")
 
+## Usage
+
+To use WordWrapLabel just import the module in your code.
+
+```swift
+import WordWrapLabel
+```
+
+Then use it as the custom UILabel subclass in interface builder or initialize it in code.
+
+You can define a minimum and maximum font size which will be taken into account when determining the right font size for the label. The search will start at the `maximumFontPointSize` and then reduce the font size until either every word fits one line or `minimumFontPointSize` is reached.
+
+`maximumFontPointSize` and `minimumFontPointSize` can be set in interface builder or in code.
+
+```swift
+wordWrapLabel.maximumFontPointSize = 25 // Default is 40
+wordWrapLabel.minimumFontPointSize = 10 // Default is 1
+```
+
 ## Author
 
 Philipp, philipp_otto@live.de

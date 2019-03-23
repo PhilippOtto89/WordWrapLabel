@@ -13,7 +13,7 @@ open class WordWrapLabel: UILabel {
     // MARK: - Public properties
     
     @IBInspectable
-    public var maximumFontPointSize: CGFloat = 100
+    public var maximumFontPointSize: CGFloat = 40
     
     @IBInspectable
     public var minimumFontPointSize: CGFloat = 1
