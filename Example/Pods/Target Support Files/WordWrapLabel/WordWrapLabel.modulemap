@@ -1,0 +1,6 @@
+framework module WordWrapLabel {
+  umbrella header "WordWrapLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - WordWrapLabel (0.1.0)
+
+DEPENDENCIES:
+  - WordWrapLabel (from `../`)
+
+EXTERNAL SOURCES:
+  WordWrapLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WordWrapLabel: bd68caefb4a8dc512932bc89a466f19dd3be3aa6
+
+PODFILE CHECKSUM: 89ea4df8f0fab97fa6cb729621cd04c2baa672dd
+
+COCOAPODS: 1.5.3

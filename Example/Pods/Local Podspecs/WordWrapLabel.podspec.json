@@ -1,0 +1,22 @@
+{
+  "name": "WordWrapLabel",
+  "version": "0.1.0",
+  "summary": "A short description of WordWrapLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Philipp/WordWrapLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Philipp": "philipp_otto@live.de"
+  },
+  "source": {
+    "git": "https://github.com/Philipp/WordWrapLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WordWrapLabel/Classes/**/*"
+}

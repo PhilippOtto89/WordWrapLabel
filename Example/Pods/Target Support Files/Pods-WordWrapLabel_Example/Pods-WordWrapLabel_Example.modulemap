@@ -1,0 +1,6 @@
+framework module Pods_WordWrapLabel_Example {
+  umbrella header "Pods-WordWrapLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First Example View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="FirstExampleViewController" id="vXZ-lx-hvc" customClass="FirstExampleViewController" customModule="WordWrapLabel_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="cbN-GD-5uQ">
+                                <rect key="frame" x="32" y="40" width="311" height="234"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVd-sW-xIW" customClass="WordWrapLabel" customModule="WordWrapLabel">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="66"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jyt-ut-EMV" customClass="WordWrapLabel" customModule="WordWrapLabel">
+                                        <rect key="frame" x="0.0" y="96" width="128" height="66"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zyc-a0-F48" customClass="WordWrapLabel" customModule="WordWrapLabel">
+                                        <rect key="frame" x="0.0" y="192" width="82.5" height="42"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJc-Sv-k3V">
+                                <rect key="frame" x="89.5" y="314" width="196" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Show second example"/>
+                                <connections>
+                                    <segue destination="rWM-Bi-Ads" kind="show" id="f5h-UI-V7I"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZJc-Sv-k3V" firstAttribute="top" secondItem="cbN-GD-5uQ" secondAttribute="bottom" constant="40" id="D1H-ta-elS"/>
+                            <constraint firstItem="cbN-GD-5uQ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="LPn-s9-Hcn"/>
+                            <constraint firstItem="cbN-GD-5uQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="16" id="V5q-Z5-Ra1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cbN-GD-5uQ" secondAttribute="trailing" constant="16" id="f8I-r7-hGd"/>
+                            <constraint firstItem="ZJc-Sv-k3V" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="iiH-AE-1Ne"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label1" destination="aVd-sW-xIW" id="Bzs-od-4gg"/>
+                        <outlet property="label2" destination="Jyt-ut-EMV" id="bIK-o4-vqc"/>
+                        <outlet property="label3" destination="Zyc-a0-F48" id="kCa-50-dB1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124" y="27"/>
+        </scene>
+        <!--Second Example View Controller-->
+        <scene sceneID="iq0-rJ-AWO">
+            <objects>
+                <viewController storyboardIdentifier="SecondExampleViewController" id="rWM-Bi-Ads" customClass="SecondExampleViewController" customModule="WordWrapLabel_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z3u-mP-ndb"/>
+                        <viewControllerLayoutGuide type="bottom" id="gSJ-mD-aGT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="obL-VO-xex">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="jJW-GZ-prs">
+                                <rect key="frame" x="32" y="40" width="311" height="330"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBc-at-mxo" customClass="WordWrapLabel" customModule="WordWrapLabel">
+                                        <rect key="frame" x="0.0" y="0.0" width="117" height="60"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1E-7I-tWV" customClass="WordWrapLabel" customModule="WordWrapLabel">
+                                        <rect key="frame" x="0.0" y="90" width="117" height="60"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUb-E0-97b" customClass="WordWrapLabel" customModule="WordWrapLabel">
+                                        <rect key="frame" x="0.0" y="180" width="117" height="80"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="PmI-iv-dgB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1u-fS-75U" customClass="WordWrapLabel" customModule="WordWrapLabel">
+                                        <rect key="frame" x="0.0" y="290" width="117" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="El9-sM-9eI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jJW-GZ-prs" firstAttribute="leading" secondItem="obL-VO-xex" secondAttribute="leadingMargin" constant="16" id="Aes-oV-OMl"/>
+                            <constraint firstItem="jJW-GZ-prs" firstAttribute="top" secondItem="Z3u-mP-ndb" secondAttribute="bottom" constant="20" id="FrX-Q7-NuS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jJW-GZ-prs" secondAttribute="trailing" constant="16" id="NzE-SJ-5tg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label1" destination="OBc-at-mxo" id="S23-rL-1Ij"/>
+                        <outlet property="label2" destination="E1E-7I-tWV" id="GEg-5A-MZu"/>
+                        <outlet property="label3" destination="MUb-E0-97b" id="9b3-1e-KwD"/>
+                        <outlet property="label4" destination="w1u-fS-75U" id="r27-yy-1vb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zon-jn-Jfi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="812" y="27"/>
+        </scene>
+    </scenes>
+</document>
