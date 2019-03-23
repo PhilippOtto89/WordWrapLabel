@@ -25,15 +25,15 @@ A UILabel subclass that really makes sure that every word in the label´s text f
 
 The standard UILabel can automatically adjust the scale of the font size to make the whole text fit the label bounds but it doesn´t take into account the actual length of the different words of the given text. This results in words being broken up into multiple lines because they are too long to fit one line.
 
-![](/Screenshots/Screenshot1.png?raw=true =250x500)
+![](/Screenshots/Screenshot1.png?raw=true "Standard UILabel with word split up into multiple lines")
 
 The WordWrapLabel finds the suitable font size to make every word of the given text fit into one line.
 
-![](/Screenshots/Screenshot2.png?raw=true =250x500)
+![](/Screenshots/Screenshot2.png?raw=true "WordWrapLabel made sure every word fits a line")
 
 It also makes sure that the text fits into the whole bounds of the label when there is a line number or height restriction.
 
-![](/Screenshots/Screenshot3.png?raw=true =250x500)
+![](/Screenshots/Screenshot3.png?raw=true "WordWrapLabel making the text fit into the line number or given height")
 
 ## Author
 
