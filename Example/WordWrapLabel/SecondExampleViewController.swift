@@ -23,7 +23,7 @@ class SecondExampleViewController: UIViewController {
         
         self.label2.text = "(3 lines only) Because unimaginatively stories are boring"
         
-        self.label3.text = "(80px heigth only) Because unimaginatively stories are boring"
+        self.label3.text = "(80px height only) Because unimaginatively stories are boring"
         
         self.label4.text = "(40px height only) Because unimaginatively stories are boring"
         

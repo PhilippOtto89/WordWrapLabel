@@ -1,6 +1,5 @@
 # WordWrapLabel
 
-[![CI Status](https://img.shields.io/travis/Philipp/WordWrapLabel.svg?style=flat)](https://travis-ci.org/Philipp/WordWrapLabel)
 [![Version](https://img.shields.io/cocoapods/v/WordWrapLabel.svg?style=flat)](https://cocoapods.org/pods/WordWrapLabel)
 [![License](https://img.shields.io/cocoapods/l/WordWrapLabel.svg?style=flat)](https://cocoapods.org/pods/WordWrapLabel)
 [![Platform](https://img.shields.io/cocoapods/p/WordWrapLabel.svg?style=flat)](https://cocoapods.org/pods/WordWrapLabel)
