@@ -38,7 +38,7 @@ class WordWrapLabel_Tests: XCTestCase {
     ]
     
     func testAdjustFontSize() {
-        
+        print("TEST START")
         let testLabel = WordWrapLabel()
         
         for test in self.fontSizeTests {

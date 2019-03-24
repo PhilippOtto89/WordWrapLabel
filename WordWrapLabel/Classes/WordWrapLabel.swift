@@ -64,22 +64,48 @@ open class WordWrapLabel: UILabel {
             print("WordWrapLabel Warning: maximumFontPointSize should be greater than minimumFontPointSize")
             self.minimumFontPointSize = self.maximumFontPointSize
         }
-        
+
         let helperLabel = self.getHelperLabel()
         
-        helperLabel.font = helperLabel.font.withSize(self.maximumFontPointSize + 1)
+        // This will be the outcome of the search for a suitable font size
+        var adjustmentResultFontSize: CGFloat = self.minimumFontPointSize
+        
+        // We search for the suitable font size in a binary way (Always try the middle value between current min and max)
+        // We use ints here to prevent rounding issues while calculating the font size. Also we dont need floating points anyways
+        var currentMax: Int = Int(self.maximumFontPointSize)
+        var currentMin: Int = Int(self.minimumFontPointSize)
         
         repeat {
-            
-            let currentFontSize = helperLabel.font.pointSize
 
-            helperLabel.font = helperLabel.font.withSize(currentFontSize - 1)
+            var middleValue = currentMin + ((currentMax - currentMin) / 2)
             
+            helperLabel.font = helperLabel.font.withSize(CGFloat(middleValue))
+            
+            // We have to reset the bounds before calling sizeToFit to get the proper results because otherwise the text is rendered differently depending on the former bounds
+            helperLabel.bounds = CGRect.zero
             helperLabel.sizeToFit()
             
-        } while helperLabel.font.pointSize > self.minimumFontPointSize && helperLabel.bounds.width > self.bounds.width
+            if helperLabel.bounds.width > self.bounds.width {
+                
+                if currentMax == middleValue {
+                    middleValue -= 1
+                }
+                
+                currentMax = middleValue
+            } else {
+                
+                adjustmentResultFontSize = CGFloat(middleValue)
+                
+                if currentMin == middleValue {
+                    middleValue += 1
+                }
+                
+                currentMin = middleValue
+            }
+            
+        } while currentMin <= currentMax
         
-        self.font = self.font.withSize(helperLabel.font.pointSize)
+        self.font = self.font.withSize(adjustmentResultFontSize)
     }
     
     private func getHelperLabel() -> UILabel {
