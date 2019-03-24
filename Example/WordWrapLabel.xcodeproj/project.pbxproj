@@ -8,18 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		1735910A22468A720027A2C3 /* SecondExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735910922468A720027A2C3 /* SecondExampleViewController.swift */; };
+		17EED98A2247E719003EE326 /* WordWrapLabel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EED9892247E719003EE326 /* WordWrapLabel_Tests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* FirstExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* FirstExampleViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		94641BF7CA6E060108E59CD2 /* Pods_WordWrapLabel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA28F854DADF7F0EF788F8D /* Pods_WordWrapLabel_Example.framework */; };
+		F92CC2FEC5D16F61ED208C08 /* Pods_WordWrapLabel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77612A430995C1F9D0002AF /* Pods_WordWrapLabel_Tests.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17EED98C2247E719003EE326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = WordWrapLabel_Example;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		004F09BF31E74A519B56483E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		05132A92846C4FC22F680F9D /* WordWrapLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WordWrapLabel.podspec; path = ../WordWrapLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1735910922468A720027A2C3 /* SecondExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondExampleViewController.swift; sourceTree = "<group>"; };
+		17EED9872247E719003EE326 /* WordWrapLabel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordWrapLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EED9892247E719003EE326 /* WordWrapLabel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordWrapLabel_Tests.swift; sourceTree = "<group>"; };
+		17EED98B2247E719003EE326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27022228DF77FCAD543E8707 /* Pods-WordWrapLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordWrapLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WordWrapLabel_Example/Pods-WordWrapLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WordWrapLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordWrapLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +52,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		17EED9842247E719003EE326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92CC2FEC5D16F61ED208C08 /* Pods_WordWrapLabel_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -48,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17EED9882247E719003EE326 /* WordWrapLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				17EED9892247E719003EE326 /* WordWrapLabel_Tests.swift */,
+				17EED98B2247E719003EE326 /* Info.plist */,
+			);
+			path = WordWrapLabel_Tests;
+			sourceTree = "<group>";
+		};
 		37DA5855CEDF26876330EF0D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +96,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for WordWrapLabel */,
+				17EED9882247E719003EE326 /* WordWrapLabel_Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				37DA5855CEDF26876330EF0D /* Pods */,
 				B216D0431D779DBB2FEA6E2C /* Frameworks */,
@@ -74,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* WordWrapLabel_Example.app */,
+				17EED9872247E719003EE326 /* WordWrapLabel_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +157,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		17EED9862247E719003EE326 /* WordWrapLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EED9902247E719003EE326 /* Build configuration list for PBXNativeTarget "WordWrapLabel_Tests" */;
+			buildPhases = (
+				A5CBFCE2A11DA21863542C4E /* [CP] Check Pods Manifest.lock */,
+				17EED9832247E719003EE326 /* Sources */,
+				17EED9842247E719003EE326 /* Frameworks */,
+				17EED9852247E719003EE326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17EED98D2247E719003EE326 /* PBXTargetDependency */,
+			);
+			name = WordWrapLabel_Tests;
+			productName = WordWrapLabel_Tests;
+			productReference = 17EED9872247E719003EE326 /* WordWrapLabel_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		607FACCF1AFB9204008FA782 /* WordWrapLabel_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "WordWrapLabel_Example" */;
@@ -148,10 +201,16 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					17EED9862247E719003EE326 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 1010;
@@ -172,11 +231,19 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* WordWrapLabel_Example */,
+				17EED9862247E719003EE326 /* WordWrapLabel_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		17EED9852247E719003EE326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,9 +301,39 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WordWrapLabel_Example/Pods-WordWrapLabel_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A5CBFCE2A11DA21863542C4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WordWrapLabel_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		17EED9832247E719003EE326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EED98A2247E719003EE326 /* WordWrapLabel_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,6 +345,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17EED98D2247E719003EE326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* WordWrapLabel_Example */;
+			targetProxy = 17EED98C2247E719003EE326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -269,6 +374,61 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		17EED98E2247E719003EE326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03CFC9559690D8A354BB2D2 /* Pods-WordWrapLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = WordWrapLabel_Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.default.WordWrapLabel-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordWrapLabel_Example.app/WordWrapLabel_Example";
+			};
+			name = Debug;
+		};
+		17EED98F2247E719003EE326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D47247623B4DA4DE9704521 /* Pods-WordWrapLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = WordWrapLabel_Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.default.WordWrapLabel-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordWrapLabel_Example.app/WordWrapLabel_Example";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -405,6 +565,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		17EED9902247E719003EE326 /* Build configuration list for PBXNativeTarget "WordWrapLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EED98E2247E719003EE326 /* Debug */,
+				17EED98F2247E719003EE326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "WordWrapLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

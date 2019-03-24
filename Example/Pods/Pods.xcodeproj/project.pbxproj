@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1413FA48141E9F0376EBC69991DE97DE /* Pods-WordWrapLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077C50C70568D23E570FF2AA72BCF53 /* Pods-WordWrapLabel_Example-dummy.m */; };
+		036352CF105CCA521BA1A29168B86744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		1413FA48141E9F0376EBC69991DE97DE /* Pods-WordWrapLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30532307274FCC9C7399D284302688AE /* Pods-WordWrapLabel_Example-dummy.m */; };
 		278771666345288EE496CB651C582607 /* WordWrapLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AE603DAFABCF6A26C466946D0F94D /* WordWrapLabel.swift */; };
+		547A86E95A2C16D6FA8D09ED0161E994 /* Pods-WordWrapLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F09540D0C55E7291C530EDC2388747 /* Pods-WordWrapLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CC37DCC8E9275B51C15A06E2EEC65A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		854402C47E38DBE5CF15E4A3366DA2B7 /* WordWrapLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E1581693AAF157E03A85EF83A2395D /* WordWrapLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9664FFFD4C13B0B56A3538DF6191B042 /* WordWrapLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B448C204BC11C57CDC18F412B6633474 /* WordWrapLabel-dummy.m */; };
-		AB0829F8417FA8048CB6AB88AC1DC58A /* Pods-WordWrapLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F107C7D4592EBE3107284E4B5F4E0D /* Pods-WordWrapLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E8DD2EDF54EB5A654F627CB4E9F5DF0 /* Pods-WordWrapLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 649493F54A08E69A02D71B44BCEFAEB4 /* Pods-WordWrapLabel_Tests-dummy.m */; };
+		AB0829F8417FA8048CB6AB88AC1DC58A /* Pods-WordWrapLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB31A5915EF7586704F5555ED023E83 /* Pods-WordWrapLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA0FC6F2A99C738854AB798202803CE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1D259D6189B6D8D24694D47077D65E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 696EE85FCA705B5D38B3C6019968D469;
+			remoteInfo = "Pods-WordWrapLabel_Example";
+		};
 		38FC527FCEB6E9F862F3E6181FC3AB36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -27,30 +37,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0077C50C70568D23E570FF2AA72BCF53 /* Pods-WordWrapLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WordWrapLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		01583C1B900B9D01BC72D2D30FE22C0D /* Pods-WordWrapLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WordWrapLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		052A7EB911A785B11A9539C6020EDA6A /* Pods-WordWrapLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WordWrapLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		09346D3D28D502E213FFBD9EE3892B75 /* Pods-WordWrapLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WordWrapLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0B1554BF745F55438C6F7E1B7AAC3437 /* Pods_WordWrapLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WordWrapLabel_Example.framework; path = "Pods-WordWrapLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE5204DBB0439AB157BB4FFCBCD3BFC /* Pods-WordWrapLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WordWrapLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DF8644F2558B0000346883A394F4EC6 /* WordWrapLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WordWrapLabel.framework; path = WordWrapLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AD0113C8E60F01DCD68F8B368F0EFD /* Pods-WordWrapLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WordWrapLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D0323F6B463C5B8E36055B017E3844F /* Pods-WordWrapLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WordWrapLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1E4F5F13930DAA2AED0624B035BC09A8 /* WordWrapLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WordWrapLabel.modulemap; sourceTree = "<group>"; };
 		2241547E5AA540885840520EC78972F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		479B5A345BCD732D6BD9DC8240FBE936 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		668C5FB1A1428A3AF46C8ED8C25F93EF /* WordWrapLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WordWrapLabel.framework; path = WordWrapLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30532307274FCC9C7399D284302688AE /* Pods-WordWrapLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WordWrapLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		3DB60CF98D33C9C80E743E7DA0A40D60 /* Pods-WordWrapLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WordWrapLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		5A9A5C0DE858F4C00DC4624721807ACD /* Pods-WordWrapLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WordWrapLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		649493F54A08E69A02D71B44BCEFAEB4 /* Pods-WordWrapLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WordWrapLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		673AE603DAFABCF6A26C466946D0F94D /* WordWrapLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WordWrapLabel.swift; path = WordWrapLabel/Classes/WordWrapLabel.swift; sourceTree = "<group>"; };
 		7076FE38BD954D79EF442CBB3EF8F5C9 /* WordWrapLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WordWrapLabel.xcconfig; sourceTree = "<group>"; };
-		73F57AC9F36EE7BD6E7E1346002FF872 /* Pods-WordWrapLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WordWrapLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		74F107C7D4592EBE3107284E4B5F4E0D /* Pods-WordWrapLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WordWrapLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		7359047CF8633F9138CBD55FA78FC465 /* Pods-WordWrapLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WordWrapLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		80D9188A70F12F1ED408F65CA58A31E1 /* WordWrapLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WordWrapLabel-prefix.pch"; sourceTree = "<group>"; };
 		81154DCB272545A7DF438D65BB69C467 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8D6372D6670FAF5F4D5FBDE133A48F89 /* Pods-WordWrapLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WordWrapLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8FEEA1FE687A9319E0E1A20DE00FADF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912B4C1D7354B95547FBA7865ABA7A5D /* Pods-WordWrapLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WordWrapLabel_Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		959AFA6A9F43FE8DF26501B7B98A9EA0 /* Pods-WordWrapLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WordWrapLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93F09540D0C55E7291C530EDC2388747 /* Pods-WordWrapLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WordWrapLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		978BF0E672E9EB3ADDC574DC09616908 /* Pods-WordWrapLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WordWrapLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9943347A6FD31F7F132AE15A77D22ADA /* WordWrapLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WordWrapLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EC03E906859D34441B13B6ECF27B8F1 /* Pods-WordWrapLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WordWrapLabel_Example.modulemap"; sourceTree = "<group>"; };
-		A39B25EDAC96C6D3705E3B01F60F76B3 /* Pods-WordWrapLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WordWrapLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A45254D38E8133F70BEB0B9B4C97B98B /* Pods-WordWrapLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WordWrapLabel_Example-resources.sh"; sourceTree = "<group>"; };
 		B448C204BC11C57CDC18F412B6633474 /* WordWrapLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WordWrapLabel-dummy.m"; sourceTree = "<group>"; };
-		B4901BD93DA994528FD84902B59064B7 /* Pods-WordWrapLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WordWrapLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BA975374EFE32EE6162E41E35B34BB61 /* Pods_WordWrapLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WordWrapLabel_Example.framework; path = "Pods-WordWrapLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCD9485DD7517109B8781E9624AEE884 /* Pods-WordWrapLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WordWrapLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D89A26A2D6C68C88D9E042D839BE6A4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AADF568A2C69FBEB440198913901C6 /* Pods_WordWrapLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WordWrapLabel_Tests.framework; path = "Pods-WordWrapLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E1581693AAF157E03A85EF83A2395D /* WordWrapLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WordWrapLabel-umbrella.h"; sourceTree = "<group>"; };
+		EB2FD5B23CFD59B4D6C7F01E1EEE38E5 /* Pods-WordWrapLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WordWrapLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F9915BCA5BE0D32AB57238E501E50836 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA8C4FF2A7A53F51CAEE28C778571E7 /* Pods-WordWrapLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WordWrapLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCB31A5915EF7586704F5555ED023E83 /* Pods-WordWrapLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WordWrapLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +91,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB2326A4D9AE45BEA8BAE81A69F89B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036352CF105CCA521BA1A29168B86744 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,32 +108,6 @@
 				2CC21979B9CD8C105D34A165412D8ADB /* WordWrapLabel */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		21D19C1DE6B15AC3E1047E6C2E9ECBF3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				23337D366578DD1D3EF7F856D570189C /* Pods-WordWrapLabel_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		23337D366578DD1D3EF7F856D570189C /* Pods-WordWrapLabel_Example */ = {
-			isa = PBXGroup;
-			children = (
-				479B5A345BCD732D6BD9DC8240FBE936 /* Info.plist */,
-				9EC03E906859D34441B13B6ECF27B8F1 /* Pods-WordWrapLabel_Example.modulemap */,
-				BCD9485DD7517109B8781E9624AEE884 /* Pods-WordWrapLabel_Example-acknowledgements.markdown */,
-				B4901BD93DA994528FD84902B59064B7 /* Pods-WordWrapLabel_Example-acknowledgements.plist */,
-				0077C50C70568D23E570FF2AA72BCF53 /* Pods-WordWrapLabel_Example-dummy.m */,
-				959AFA6A9F43FE8DF26501B7B98A9EA0 /* Pods-WordWrapLabel_Example-frameworks.sh */,
-				A45254D38E8133F70BEB0B9B4C97B98B /* Pods-WordWrapLabel_Example-resources.sh */,
-				74F107C7D4592EBE3107284E4B5F4E0D /* Pods-WordWrapLabel_Example-umbrella.h */,
-				A39B25EDAC96C6D3705E3B01F60F76B3 /* Pods-WordWrapLabel_Example.debug.xcconfig */,
-				73F57AC9F36EE7BD6E7E1346002FF872 /* Pods-WordWrapLabel_Example.release.xcconfig */,
-			);
-			name = "Pods-WordWrapLabel_Example";
-			path = "Target Support Files/Pods-WordWrapLabel_Example";
 			sourceTree = "<group>";
 		};
 		2CC21979B9CD8C105D34A165412D8ADB /* WordWrapLabel */ = {
@@ -126,14 +129,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		465D31CFB897795AEE4D40E1DEFDCE94 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E60B592DDB534E673BB910A2DFC3862E /* Pods-WordWrapLabel_Example */,
+				CBC99254109ED2FDED28B5342C3DBB48 /* Pods-WordWrapLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				20448EA8F90F924387F1D9F428F8A107 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E99BE5702A8F52A223904A424DECEA06 /* Products */,
-				21D19C1DE6B15AC3E1047E6C2E9ECBF3 /* Targets Support Files */,
+				A464AD4CC1F5CB47AA4B7B212640BF20 /* Products */,
+				465D31CFB897795AEE4D40E1DEFDCE94 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +173,16 @@
 			path = "Example/Pods/Target Support Files/WordWrapLabel";
 			sourceTree = "<group>";
 		};
+		A464AD4CC1F5CB47AA4B7B212640BF20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B1554BF745F55438C6F7E1B7AAC3437 /* Pods_WordWrapLabel_Example.framework */,
+				E0AADF568A2C69FBEB440198913901C6 /* Pods_WordWrapLabel_Tests.framework */,
+				0DF8644F2558B0000346883A394F4EC6 /* WordWrapLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,13 +191,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E99BE5702A8F52A223904A424DECEA06 /* Products */ = {
+		CBC99254109ED2FDED28B5342C3DBB48 /* Pods-WordWrapLabel_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				BA975374EFE32EE6162E41E35B34BB61 /* Pods_WordWrapLabel_Example.framework */,
-				668C5FB1A1428A3AF46C8ED8C25F93EF /* WordWrapLabel.framework */,
+				F9915BCA5BE0D32AB57238E501E50836 /* Info.plist */,
+				7359047CF8633F9138CBD55FA78FC465 /* Pods-WordWrapLabel_Tests.modulemap */,
+				1D0323F6B463C5B8E36055B017E3844F /* Pods-WordWrapLabel_Tests-acknowledgements.markdown */,
+				FCA8C4FF2A7A53F51CAEE28C778571E7 /* Pods-WordWrapLabel_Tests-acknowledgements.plist */,
+				649493F54A08E69A02D71B44BCEFAEB4 /* Pods-WordWrapLabel_Tests-dummy.m */,
+				8D6372D6670FAF5F4D5FBDE133A48F89 /* Pods-WordWrapLabel_Tests-frameworks.sh */,
+				5A9A5C0DE858F4C00DC4624721807ACD /* Pods-WordWrapLabel_Tests-resources.sh */,
+				93F09540D0C55E7291C530EDC2388747 /* Pods-WordWrapLabel_Tests-umbrella.h */,
+				978BF0E672E9EB3ADDC574DC09616908 /* Pods-WordWrapLabel_Tests.debug.xcconfig */,
+				052A7EB911A785B11A9539C6020EDA6A /* Pods-WordWrapLabel_Tests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-WordWrapLabel_Tests";
+			path = "Target Support Files/Pods-WordWrapLabel_Tests";
+			sourceTree = "<group>";
+		};
+		E60B592DDB534E673BB910A2DFC3862E /* Pods-WordWrapLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8FEEA1FE687A9319E0E1A20DE00FADF1 /* Info.plist */,
+				912B4C1D7354B95547FBA7865ABA7A5D /* Pods-WordWrapLabel_Example.modulemap */,
+				0CE5204DBB0439AB157BB4FFCBCD3BFC /* Pods-WordWrapLabel_Example-acknowledgements.markdown */,
+				16AD0113C8E60F01DCD68F8B368F0EFD /* Pods-WordWrapLabel_Example-acknowledgements.plist */,
+				30532307274FCC9C7399D284302688AE /* Pods-WordWrapLabel_Example-dummy.m */,
+				EB2FD5B23CFD59B4D6C7F01E1EEE38E5 /* Pods-WordWrapLabel_Example-frameworks.sh */,
+				3DB60CF98D33C9C80E743E7DA0A40D60 /* Pods-WordWrapLabel_Example-resources.sh */,
+				FCB31A5915EF7586704F5555ED023E83 /* Pods-WordWrapLabel_Example-umbrella.h */,
+				09346D3D28D502E213FFBD9EE3892B75 /* Pods-WordWrapLabel_Example.debug.xcconfig */,
+				01583C1B900B9D01BC72D2D30FE22C0D /* Pods-WordWrapLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-WordWrapLabel_Example";
+			path = "Target Support Files/Pods-WordWrapLabel_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,9 +246,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6042F4C37A7E7B0DA178C3EB053723A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A86E95A2C16D6FA8D09ED0161E994 /* Pods-WordWrapLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2D3FF24F6CA885EDF4AE7F6E1525B21F /* Pods-WordWrapLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB68D4D848483F880115769A61A4DB2 /* Build configuration list for PBXNativeTarget "Pods-WordWrapLabel_Tests" */;
+			buildPhases = (
+				6042F4C37A7E7B0DA178C3EB053723A6 /* Headers */,
+				465F1B40ACBE9CD9CFEC68D1E199E098 /* Sources */,
+				CB2326A4D9AE45BEA8BAE81A69F89B34 /* Frameworks */,
+				5972D98FE820BFDBAB7522420B1AA670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176E8D23A85E6E4ECAF79B137E548428 /* PBXTargetDependency */,
+			);
+			name = "Pods-WordWrapLabel_Tests";
+			productName = "Pods-WordWrapLabel_Tests";
+			productReference = E0AADF568A2C69FBEB440198913901C6 /* Pods_WordWrapLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		696EE85FCA705B5D38B3C6019968D469 /* Pods-WordWrapLabel_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52DBA4D663AD1D23A98EBCB68F602729 /* Build configuration list for PBXNativeTarget "Pods-WordWrapLabel_Example" */;
@@ -216,7 +292,7 @@
 			);
 			name = "Pods-WordWrapLabel_Example";
 			productName = "Pods-WordWrapLabel_Example";
-			productReference = BA975374EFE32EE6162E41E35B34BB61 /* Pods_WordWrapLabel_Example.framework */;
+			productReference = 0B1554BF745F55438C6F7E1B7AAC3437 /* Pods_WordWrapLabel_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98943E1CD78CB336003357AFC8BC8889 /* WordWrapLabel */ = {
@@ -234,7 +310,7 @@
 			);
 			name = WordWrapLabel;
 			productName = WordWrapLabel;
-			productReference = 668C5FB1A1428A3AF46C8ED8C25F93EF /* WordWrapLabel.framework */;
+			productReference = 0DF8644F2558B0000346883A394F4EC6 /* WordWrapLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -254,17 +330,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E99BE5702A8F52A223904A424DECEA06 /* Products */;
+			productRefGroup = A464AD4CC1F5CB47AA4B7B212640BF20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				696EE85FCA705B5D38B3C6019968D469 /* Pods-WordWrapLabel_Example */,
+				2D3FF24F6CA885EDF4AE7F6E1525B21F /* Pods-WordWrapLabel_Tests */,
 				98943E1CD78CB336003357AFC8BC8889 /* WordWrapLabel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5972D98FE820BFDBAB7522420B1AA670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		61BFABAECB5CDCC64A2FC4A78208162E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,6 +374,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		465F1B40ACBE9CD9CFEC68D1E199E098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8DD2EDF54EB5A654F627CB4E9F5DF0 /* Pods-WordWrapLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BE51AD8E9CCF7B73957A0BAC3B092920 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,6 +394,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		176E8D23A85E6E4ECAF79B137E548428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WordWrapLabel_Example";
+			target = 696EE85FCA705B5D38B3C6019968D469 /* Pods-WordWrapLabel_Example */;
+			targetProxy = 1D259D6189B6D8D24694D47077D65E9D /* PBXContainerItemProxy */;
+		};
 		77D9D17750D2C14080E4614374165867 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WordWrapLabel;
@@ -311,6 +409,41 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1AA0742ECC80DF0EF49E4624073153B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 052A7EB911A785B11A9539C6020EDA6A /* Pods-WordWrapLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WordWrapLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WordWrapLabel_Tests/Pods-WordWrapLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -442,7 +575,7 @@
 		};
 		C5784AA0EE6BB8136D4750D3A25C2D46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73F57AC9F36EE7BD6E7E1346002FF872 /* Pods-WordWrapLabel_Example.release.xcconfig */;
+			baseConfigurationReference = 01583C1B900B9D01BC72D2D30FE22C0D /* Pods-WordWrapLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -537,9 +670,43 @@
 			};
 			name = Release;
 		};
+		D6E4DE223313D43F2648898380CFC519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978BF0E672E9EB3ADDC574DC09616908 /* Pods-WordWrapLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WordWrapLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WordWrapLabel_Tests/Pods-WordWrapLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D9AD2F109E874C5B72A9C31C2F837CE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A39B25EDAC96C6D3705E3B01F60F76B3 /* Pods-WordWrapLabel_Example.debug.xcconfig */;
+			baseConfigurationReference = 09346D3D28D502E213FFBD9EE3892B75 /* Pods-WordWrapLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -588,6 +755,15 @@
 			buildConfigurations = (
 				D9AD2F109E874C5B72A9C31C2F837CE0 /* Debug */,
 				C5784AA0EE6BB8136D4750D3A25C2D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB68D4D848483F880115769A61A4DB2 /* Build configuration list for PBXNativeTarget "Pods-WordWrapLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E4DE223313D43F2648898380CFC519 /* Debug */,
+				1AA0742ECC80DF0EF49E4624073153B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

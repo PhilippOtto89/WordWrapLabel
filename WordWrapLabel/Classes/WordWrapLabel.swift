@@ -60,6 +60,11 @@ open class WordWrapLabel: UILabel {
     /// This function tries to find the maximum font size with which every word of the label´s text will fit into a single line
     private func adjustFontSize() {
         
+        if self.maximumFontPointSize < self.minimumFontPointSize {
+            print("WordWrapLabel Warning: maximumFontPointSize should be greater than minimumFontPointSize")
+            self.minimumFontPointSize = self.maximumFontPointSize
+        }
+        
         let helperLabel = self.getHelperLabel()
         
         helperLabel.font = helperLabel.font.withSize(self.maximumFontPointSize + 1)

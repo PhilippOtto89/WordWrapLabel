@@ -1,0 +1,6 @@
+framework module Pods_WordWrapLabel_Tests {
+  umbrella header "Pods-WordWrapLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -5,4 +5,7 @@ platform :ios, '10.0'
 target 'WordWrapLabel_Example' do
   pod 'WordWrapLabel', :path => '../'
 
+  target 'WordWrapLabel_Tests' do
+      inherit! :search_paths
+  end
 end
