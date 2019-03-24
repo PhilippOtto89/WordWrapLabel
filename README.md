@@ -1,7 +1,7 @@
 # WordWrapLabel
 
 [![Version](https://img.shields.io/cocoapods/v/WordWrapLabel.svg?style=flat)](https://cocoapods.org/pods/WordWrapLabel)
-[![License](https://img.shields.io/cocoapods/l/WordWrapLabel.svg?style=flat)](https://cocoapods.org/pods/WordWrapLabel)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/cocoapods/p/WordWrapLabel.svg?style=flat)](https://cocoapods.org/pods/WordWrapLabel)
 
 ## Example
