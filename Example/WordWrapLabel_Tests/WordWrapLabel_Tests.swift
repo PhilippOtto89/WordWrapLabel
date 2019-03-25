@@ -35,6 +35,8 @@ class WordWrapLabel_Tests: XCTestCase {
         FontSizeTestData(labelText: "VeryLongWordBarelyFittingALine and some other random stuff", startingFontSize: 40, minimumFontSize: 30, maximumFontSize: 20, numberOfLines: 9, labelSize: CGSize(width: 400, height: CGFloat.greatestFiniteMagnitude), expectedFontSize: 20, expectedMinimumScale: 1.0),
         FontSizeTestData(labelText: "VeryLongWordBarelyFittingALine and some other random stuff", startingFontSize: 40, minimumFontSize: 40, maximumFontSize: 100, numberOfLines: 10, labelSize: CGSize(width: 400, height: CGFloat.greatestFiniteMagnitude), expectedFontSize: 40, expectedMinimumScale: 1.0),
         FontSizeTestData(labelText: nil, startingFontSize: 100, minimumFontSize: 1, maximumFontSize: 200, numberOfLines: 11, labelSize: CGSize(width: 400, height: CGFloat.greatestFiniteMagnitude), expectedFontSize: 200, expectedMinimumScale: 0.004),
+        FontSizeTestData(labelText: "VeryLongWordBarelyFittingALine and some other random stuff", startingFontSize: 1000, minimumFontSize: 9, maximumFontSize: 19, numberOfLines: 1, labelSize: CGSize(width: 100, height: CGFloat.greatestFiniteMagnitude), expectedFontSize: 9, expectedMinimumScale: 1),
+        FontSizeTestData(labelText: "VeryLongWordBarelyFittingALine and some other random stuff", startingFontSize: 1000, minimumFontSize: 9, maximumFontSize: 19, numberOfLines: 1, labelSize: CGSize(width: 1000, height: CGFloat.greatestFiniteMagnitude), expectedFontSize: 19, expectedMinimumScale: 0.47),
     ]
     
     func testAdjustFontSize() {
